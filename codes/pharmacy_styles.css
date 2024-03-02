@@ -1,0 +1,49 @@
+/* Reset some default styles for better consistency */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2bfbf;
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    background-color: #f59403;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the list of pharmacies */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the alternate list items */
+li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Add some spacing to the bottom of the list */
+ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}

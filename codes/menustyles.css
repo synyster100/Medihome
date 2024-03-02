@@ -1,0 +1,84 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2bfbf;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    background-color: #f59403;
+    color: white;
+    padding: 20px;
+}
+
+/* Table container styles */
+table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table header styles */
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Table data cell styles */
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Alternating row styles */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Add to cart button styles */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Quantity input styles */
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+}

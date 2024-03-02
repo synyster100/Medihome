@@ -1,0 +1,170 @@
+/* Reset some default styles
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #29a2b8;
+    color: #333;
+    background-image: url('index background.jpg');
+}
+
+/* Header Styles 
+header {
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(43, 41, 41, 0.1);
+    padding: 25px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0  25px;
+}
+
+
+.logo {
+    padding: 2px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+/* Hero Section Styles 
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    padding: 350px 0;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #33cc66;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2da655;
+}
+
+/* Features Section Styles 
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Footer Styles 
+footer {
+    background-color: #131111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+} */
+body{
+    margin:0;
+    padding:0;
+    background-color: orangered;
+    font-family: sans-serif;
+    background-position: center;
+}
+
+h1{
+    color: black;
+    margin-bottom: 25px;
+}
+
+
+.container{
+    width:300px;
+    box-shadow:0 0 3px rgba(0,0,0,0.3);
+    background:#fff;
+    padding: 20px;
+    margin:8% auto 0;
+    text-align: center;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border:1px solid #999;
+    outline:none;
+}
+
+select{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 60%;
+    border:1px solid #999;
+    text-align: center;
+    outline:none;
+}
+#btn{
+    color:#fff;
+    width:90%;
+    padding: 10px;
+    border-radius: 20px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    background-color: #1c8adb;
+}
+
+a{
+    font-size: 10px;
+}
