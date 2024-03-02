@@ -1,2 +1,3 @@
 # Medihome
-An online medicine delivery system
+An online medicine delivery system 
+used tech: html, css, php, mysql
